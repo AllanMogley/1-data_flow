@@ -1,6 +1,6 @@
 # Data Flow
 
-![https://github.com/AllanMogley/1-data_flow/blob/baa3efab369a6dbe861a0f10b18641237f111fb5/1-assets/diagram-export-11-1-2024-1_08_48-PM.svg](https://github.com/AllanMogley/1-data_flow/blob/baa3efab369a6dbe861a0f10b18641237f111fb5/1-assets/diagram-export-11-1-2024-1_08_48-PM.svg)
+![https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/diagram-export-11-1-2024-2_37_11-PM.svg](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/diagram-export-11-1-2024-2_37_11-PM.svg)
 
 This system focuses on the development of a data pipeline to extract, transform, and load **(ETL)** data from a hosted source into our inhouse database. The ETL process will involve extracting relevant data from the source database using Python APIs, transforming the data to align with the database schema and loading the transformed data into our target infrastructure.
 
