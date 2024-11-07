@@ -1,5 +1,7 @@
 # Data Flow
 
+---
+
 ![https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/Workflow.png](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/Workflow.png)
 
 ---
@@ -8,11 +10,11 @@ This system focuses on the development of a data pipeline 🔧🔨 to extract, t
 
 The ETL process will involve extracting relevant data from the source database using Python 🐍🐍 APIs, transforming the data to align with the database schema and loading the transformed data into our target infrastructure 📦📦.
 
-The data pipeline will be designed to be scalable, efficient, and reliable, ensuring timely ⌚⌚ and accurate data integration. Additionally, we will implement error handling and logging mechanisms to monitor the pipeline's performance and troubleshoot any issues.
+The data pipeline will be designed to be scalable, efficient, and reliable, ensuring timely ⌚⌚ and accurate data integration. Additionally, we will implement error handling and logging mechanisms to monitor the pipeline's performance and troubleshoot any issues. 🚀🚀
 
 ---
 
-### Tools and Skills in this Project :
+## Tools and Skills in this Project :
 
 ✅ Docker Images and Containerization
 
@@ -22,27 +24,27 @@ The data pipeline will be designed to be scalable, efficient, and reliable, ensu
 
 ✅ Basic Linux knowledge
 
-![icons8_Python_1.svg](icons8_Python_1.svg)
+![icons8_Python_1.svg](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/icons8_Python_1.svg)
 
-![icons8_Docker.svg](icons8_Docker.svg)
+![icons8_Docker.svg](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/icons8_Docker.svg)
 
-![icons8_no_linux_2.svg](icons8_no_linux_2.svg)
+![icons8_no_linux_2.svg](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/icons8_no_linux_2.svg)
 
-![icons8_Bash.svg](icons8_Bash.svg)
-
----
-
-### This is how we’ll do it 🔥🔥:
-
-1. Configure our environment and install our libraries. A docker container will host all out codes.
-2. Code the algorithm to extract the data from the hosted database and loads into our landing zone
-3. Write algorithms to transform this data and load to our staging zone
-4. Write a schema that matches our inhouse database
-5. Load the data onto our database
+![icons8_Bash.svg](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/icons8_Bash.svg)
 
 ---
 
-## Let’s Get into it
+## This is how we’ll do it 🔥🔥
+
+- 1️⃣ Configure our environment and install our libraries. A docker container will host all out codes.
+- 2️⃣ Code the algorithm to extract the data from the hosted database and loads into our landing zone.
+- 3️⃣ Write algorithms to transform this data and load to our staging zone.
+- 4️⃣ Write a schema that matches our inhouse database.
+- 5️⃣ Load the data onto our database.
+
+---
+
+## Let’s Get into it 🚀🚀
 
 Ensure You have docker installed in you system. You can find installation instructions in the link. [https://docs.docker.com/desktop/](https://docs.docker.com/desktop/) 
 
