@@ -1,3 +1,6 @@
+
+---
+
 # Data Flow
 
 ---
@@ -24,13 +27,6 @@ The data pipeline will be designed to be scalable, efficient, and reliable, ensu
 
 ✅ Basic Linux knowledge
 
-![icons8_Python_1.svg](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/icons8_Python_1.svg)
-
-![icons8_Docker.svg](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/icons8_Docker.svg)
-
-![icons8_no_linux_2.svg](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/icons8_no_linux_2.svg)
-
-![icons8_Bash.svg](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/icons8_Bash.svg)
 
 ---
 
