@@ -3,8 +3,6 @@
 
 # Data Flow
 
----
-
 ![https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/Workflow.png](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/Workflow.png)
 
 ---
