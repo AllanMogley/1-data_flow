@@ -9,13 +9,15 @@
 
 This system focuses on the development of a data pipeline 🔧🔨 to extract, transform, and load **(ETL)** data from a hosted source into our inhouse database.
 
-The ETL process will involve extracting relevant data from the source database using Python 🐍🐍 APIs, transforming the data to align with the database schema and loading the transformed data into our target infrastructure 📦📦.
-
-The data pipeline will be designed to be scalable, efficient, and reliable, ensuring timely ⌚⌚ and accurate data integration. Additionally, we will implement error handling and logging mechanisms to monitor the pipeline's performance and troubleshoot any issues. 🚀🚀
+The ETL process extracts raw data from the source database using ArcGIS Python 🐍🐍 APIs, process and transform the data to our inhouse database schema and load the transformed data into our target infrastructure 📦📦.
 
 ---
 
-## Tools and Skills in this Project :
+# Part One
+
+Build and Test the data pipeline on a local environment.
+
+## Tools :
 
 ✅ Docker Images and Containerization
 
@@ -26,15 +28,6 @@ The data pipeline will be designed to be scalable, efficient, and reliable, ensu
 ✅ Basic Linux knowledge
 
 
----
-
-## This is how we’ll do it 🔥🔥
-
-- 1️⃣ Configure our environment and install our libraries. A docker container will host all out codes.
-- 2️⃣ Code the algorithm to extract the data from the hosted database and loads into our landing zone.
-- 3️⃣ Write algorithms to transform this data and load to our staging zone.
-- 4️⃣ Write a schema that matches our inhouse database.
-- 5️⃣ Load the data onto our database.
 
 ---
 
@@ -48,12 +41,15 @@ Then run the following series of commands to configure our environment.
 
 ```bash
 # Pull the docker image 
+# This image alreadly contains the python scripts
 docker pull allanmogley/arcgis:latest
 ```
 
 ### 2. Install and Configure Apache Airflow
 
-Find Complete Installation Guide Here: [https://airflow.apache.org/docs/apache-airflow/stable/installation/installing-from-pypi.html](https://airflow.apache.org/docs/apache-airflow/stable/installation/installing-from-pypi.html)
+Find Complete Installation Guide Here:
+
+[https://airflow.apache.org/docs/apache-airflow/stable/installation/installing-from-pypi.html](https://airflow.apache.org/docs/apache-airflow/stable/installation/installing-from-pypi.html)
 
 ```bash
 # Install Apache Airflow
