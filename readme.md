@@ -58,3 +58,53 @@ pip install "apache-airflow[celery]==2.10.3" --constraint "https://raw.githubuse
 # Install docker airflow provider
 pip install apache-airflow-providers-docker
 ```
+
+3. ### Create an Airflow DAG
+
+   Create a dataflow.py file inside airflow/dags folder.
+
+```bash
+# -----------------------
+# Bash
+# -----------------------
+
+touch airflow/dags/dataflow.py
+```
+
+​	Paste the following code into the dataflow.py file
+
+```python
+# -----------------------
+# Python Script
+# -----------------------
+
+from airflow import DAG
+from datetime import datetime
+from airflow.operators.bash import BashOperator
+from airflow.providers.docker.operators.docker import DockerOperator
+from docker.types import Mount
+
+# Create dag
+with DAG('dataflow',
+         start_date = datetime.now(),
+         schedule = '*/5 * * * *',
+         max_active_runs = 1
+         ) as dag:
+	
+    # Data Extactor Task
+    # Runs within the docker image
+    extract = DockerOperator(
+            task_id = 'extract_data',
+            image = 'allanmogley/arcgis:latest',
+            auto_remove = 'never',
+            container_name = 'dataflow_cont',
+            mounts = [Mount(type='bind',source='home/luna',target='home/jovyan')],
+            command = 'python codes/extract.py'
+            )
+
+    extract
+
+print('SUCCESS')
+
+```
+
