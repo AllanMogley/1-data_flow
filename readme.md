@@ -71,6 +71,8 @@ pip install apache-airflow-providers-docker
 touch airflow/dags/dataflow.py
 ```
 
+![https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/Directories.png](https://github.com/AllanMogley/1-data_flow/blob/main/1-assets/Directories.png)
+
 ​	Paste the following code into the dataflow.py file
 
 ```python
